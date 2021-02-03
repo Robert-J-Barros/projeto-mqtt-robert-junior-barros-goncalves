@@ -36,13 +36,13 @@ E se a segunda metade é afasta, o curto é aberto e dessa forma o seu valor pas
 
 O Módulo Ethernet ENC28J60 é utilizado para atribuir ao Arduino a conexão ethernet / internet, dessa forma torna-se possível controlar o Arduino a partir da rede interna (ethernet) ou através da rede externa (internet).
 
-![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/mudulo_ethernet_.jpg)
+![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/mudulo_ethernet_.jpg.png)
 
 ### Jumpers:
 
 O que são Jumpers? Os Jumpers são pequenos fios condutores que podem ser conectados a uma protoboard para interligar dois pontos do circuito em projetos eletrônicos, geralmente utilizados em conexões com Arduino.
 
-![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/jumpers___.PNG)
+![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/jumpers___.PNG.png)
 
 
 
