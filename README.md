@@ -28,6 +28,8 @@ O Arduino Uno é uma placa de código aberto baseada no microcontrolador Microch
 utilizado para detecção de portas ou janelas para quando há algum tipo de de violção do sistema de segurança.
 Dentro do sensor possui dois fios, e quando enconstado a um ima que se encontra na segunda metade do sensor, o curto é fechado e seu valor passa a ser 0 *FECHADO*.
 E se a segunda metade é afasta, o curto é aberto e dessa forma o seu valor passa ser 1  *ABERTO*.
+
+
 ![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/Sensor_magn%C3%A9tico.jpg)  ![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/funcionamento_sensor_magnetico2.PNG)
 
 ### Módulo de Ethernet (ENC28J60)
