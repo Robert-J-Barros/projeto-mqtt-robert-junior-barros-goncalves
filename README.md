@@ -21,7 +21,7 @@ bibliotecas utlizada:
 ### Placa arduino UNO:
 O Arduino Uno é uma placa de código aberto baseada no microcontrolador Microchip ATmega328P e desenvolvida pela Arduino.cc. A placa está equipada com conjuntos de pinos de entrada / saída digitais e analógicos que podem ser conectados a várias placas de expansão e outros circuitos sendo assim é um sistema de prototipagem rápida que permite o desenvolvimento de projetos sem a necessidade de maiores investimentos na criação de placas de circuito impresso o projetos eletrônicos.
 
-![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/Arduino-Uno.png)
+![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/arduino--uno.png)
 
 ### Sensor magnético (MC-38);
 
@@ -40,9 +40,31 @@ O Módulo Ethernet ENC28J60 é utilizado para atribuir ao Arduino a conexão eth
 
 ### Jumpers:
 
-O que são Jumpers? Os Jumpers são pequenos fios condutores que podem ser conectados a uma protoboard para interligar dois pontos do circuito em projetos eletrônicos, geralmente utilizados em conexões com Arduino.
+Os Jumpers são pequenos fios condutores que podem ser conectados a uma protoboard para interligar dois pontos do circuito em projetos eletrônicos, geralmente utilizados em conexões com Arduino.
 
 ![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/jumpers___.PNG.png)
+
+### Protocolo MQTT:
+  O MQTT- Message Queue Telemetry Transport ( Transporte de Filas de Mensagem de Telemetria) é um Protocolo de Comunicação baseado na pilha TCP/IP, sendo extremamente útil para desenvolvimento de projetos de comunicação entre Máquina-Máquina (M2M), seu conceito de transmissão é do tipo Publicação/Assinatura.
+  A publicação e recebimento de dados são feitos através de um servidor nomeado de Broker. Um cliente no papel de Pulicador ou Publisher, que é a pessoa que transmite a mensagem, escreve um tópico de destino da mensagem e o seu Payload (conteúdo da mensagem), essa mensagem então é transmitida ao Broker que será responsável por gerir e encaminhá-la ao Subscrito ou Subscriber previamente inscrito no tópico. Da mesma forma, quando um cliente quer se tornar um Subscrito em um determinado tópico, ele encaminha uma mensagem de solicitação ao Broker, que fará essa interligação entre cliente e tópico.
+  
+- Publicador/ Publisher:  Quem envia dados para um tópico, emissor.
+  
+- Subscrito/ Subscriber:  Pessoa que está inscrita no tópico e recebe os dados, receptor.
+
+- Broker: Intermédio de comunicação entre Publicador e Subscrito, responsável por receber, enfileirar e enviar as mensagens.
+Payload: Conteúdo da mensagem enviada.
+
+- Cliente/Client: Elemento capaz de interagir com o Broker, seja para enviar, receber ou os dois.
+
+- Mensagem: Pacote de dados trocados entre Clientes e Broker.
+
+- Tópico: Endereço para o qual os dados serão encaminhados.
+
+- Unsubscribe: Deixar de assinar um tópico.
+
+![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/comunicacao_mqtt.png.png)
+ 
 
 
 
