@@ -68,6 +68,18 @@ Payload: Conteúdo da mensagem enviada.
 ## circuito:
 
 ![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/circuito2.PNG.png)
+
+### Ligação dos Jumpers 
+
+| PINOS ENC28J60 | Pinos Arduino |
+| -------------- |:------------- | 
+| 	       CS| 	10    	 | 
+|	SI       |     	11	 |   
+| 	SO       | 	12       |    
+|      SCK	 | 	13	 |
+|      VCC	 |     3.3 V	 |
+|      GND	 |	GND    	 |
+---
  
 
 
