@@ -63,21 +63,22 @@ Payload: Conteúdo da mensagem enviada.
 
 - Unsubscribe: Deixar de assinar um tópico.
 
-![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/comunicacao_mqtt.png.png)
----
+| ![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/comunicacao_mqtt.png.png)
+|---
 ## circuito:
 
 ![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/circuito2.PNG.png)
 
 ### Ligação dos Jumpers 
 
-| PINOS ENC28J60 | Pinos Arduino |
-| -------------- |:------------- | 
-| 	       CS| 	10    	 | 
-|	SI       |     	11	 |   
-| 	SO       | 	12       |    
-|      SCK	 | 	13	 |
-|      VCC	 |     3.3 V	 |
+|| PINOS ENC28J60 | Pinos Arduino |
+|
+|| -------------- |:------------- | 
+|| 	       CS| 	10    	 | 
+||	SI       |     	11	 |   
+|| 	SO       | 	12       |    
+||      SCK	 | 	13	 |
+||      VCC	 |     3.3 V	 |
 |      GND	 |	GND    	 |
 ---
  
