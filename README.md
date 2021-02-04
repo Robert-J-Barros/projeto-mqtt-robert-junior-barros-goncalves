@@ -82,7 +82,7 @@ Payload: Conteúdo da mensagem enviada.
 
 ## *autor: Robert Barros
 
-[![https://icon-icons.com/icons2/99/PNG/72/linkedin_socialnetwork_17441.png](https://www.linkedin.com/in/robert-junior-barros-gon%C3%A7alves-185b5b1b5/)
+[https://icon-icons.com/icons2/99/PNG/72/linkedin_socialnetwork_17441.png](https://www.linkedin.com/in/robert-junior-barros-gon%C3%A7alves-185b5b1b5/)
  
 
 
