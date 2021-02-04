@@ -80,7 +80,7 @@ Payload: Conteúdo da mensagem enviada.
 |      GND	 |	GND    	 |
 ---
 
-## *autor: Robert Barros
+## autor: Robert Barros
 
 [![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/linkedin_socialnetwork_17441.png)](https://www.linkedin.com/in/robert-junior-barros-gon%C3%A7alves-185b5b1b5/)
 
