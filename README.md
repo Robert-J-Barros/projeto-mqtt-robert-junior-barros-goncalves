@@ -22,7 +22,7 @@ bibliotecas utlizada:
 O Arduino Uno é uma placa de código aberto baseada no microcontrolador Microchip ATmega328P e desenvolvida pela Arduino.cc. A placa está equipada com conjuntos de pinos de entrada / saída digitais e analógicos que podem ser conectados a várias placas de expansão e outros circuitos sendo assim é um sistema de prototipagem rápida que permite o desenvolvimento de projetos sem a necessidade de maiores investimentos na criação de placas de circuito impresso o projetos eletrônicos.
 
 ![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/arduino--uno.png)
-
+---
 ### Sensor magnético (MC-38);
 
 utilizado para detecção de portas ou janelas para quando há algum tipo de de violção do sistema de segurança.
@@ -31,19 +31,19 @@ E se a segunda metade é afasta, o curto é aberto e dessa forma o seu valor pas
 
 
 ![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/Sensor_magn%C3%A9tico.jpg)  ![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/funcionamento_sensor_magnetico2.PNG)
-
+---
 ### Módulo de Ethernet (ENC28J60)
 
 O Módulo Ethernet ENC28J60 é utilizado para atribuir ao Arduino a conexão ethernet / internet, dessa forma torna-se possível controlar o Arduino a partir da rede interna (ethernet) ou através da rede externa (internet).
 
 ![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/mudulo_ethernet_.jpg.png)
-
+---
 ### Jumpers:
 
 Os Jumpers são pequenos fios condutores que podem ser conectados a uma protoboard para interligar dois pontos do circuito em projetos eletrônicos, geralmente utilizados em conexões com Arduino.
 
 ![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/jumpers___.PNG.png)
-
+---
 ### Protocolo MQTT:
   O MQTT- Message Queue Telemetry Transport ( Transporte de Filas de Mensagem de Telemetria) é um Protocolo de Comunicação baseado na pilha TCP/IP, sendo extremamente útil para desenvolvimento de projetos de comunicação entre Máquina-Máquina (M2M), seu conceito de transmissão é do tipo Publicação/Assinatura.
   A publicação e recebimento de dados são feitos através de um servidor nomeado de Broker. Um cliente no papel de Pulicador ou Publisher, que é a pessoa que transmite a mensagem, escreve um tópico de destino da mensagem e o seu Payload (conteúdo da mensagem), essa mensagem então é transmitida ao Broker que será responsável por gerir e encaminhá-la ao Subscrito ou Subscriber previamente inscrito no tópico. Da mesma forma, quando um cliente quer se tornar um Subscrito em um determinado tópico, ele encaminha uma mensagem de solicitação ao Broker, que fará essa interligação entre cliente e tópico.
@@ -64,7 +64,7 @@ Payload: Conteúdo da mensagem enviada.
 - Unsubscribe: Deixar de assinar um tópico.
 
 ![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/comunicacao_mqtt.png.png)
-
+---
 ## circuito:
 
 ![](https://github.com/redeslinuxcode/ROBERT_PROJETO_REDES_DE_COMPUTADORES_SPRINT_8/blob/main/circuito2.PNG.png)
