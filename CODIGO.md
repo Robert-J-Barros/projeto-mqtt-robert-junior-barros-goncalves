@@ -56,11 +56,11 @@ void loop() {
       Serial.println("o sensor esta aberto");
     
       Serial.println(estado_sensor);// no serial monitor vai mostrar o estado do sensor
-  mensagem=mqttClient. publish("usuario", "n funcionou");}// determina o nome do topico no qual as mensagens vai ser armazenada e a mensagem que vai ser enviada 
+  mensagem=mqttClient. publish("usuario", "aberto");}// determina o nome do topico no qual as mensagens vai ser armazenada e a mensagem que vai ser enviada 
   if(estado_sensor==0){
   Serial.println(" o sensor esta fechado");
   Serial.println(estado_sensor);
-  mensagem=mqttClient. publish("usuario", "funcionou");}
+  mensagem=mqttClient. publish("usuario", "fechado");}
   
 
  mqttClient.loop(); // fazer a verificação a conexão entre o servidor MQTT e o usuario evitando o contato com o servidor
