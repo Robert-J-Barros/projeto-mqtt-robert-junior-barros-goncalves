@@ -7,7 +7,7 @@
 
 
 //Define o endereço MAC que será utilizado
-byte mac[] = {0x74, 0x3E, 0x1C, 0x95, 0xE1, 0xC*7};
+byte mac[] = {0x74, 0x3E, 0x1C, 0x95, 0xE1, 0xC7};
 //74-3E-1C-95-E1-C7
 
 //Inicia o cliente Ethernet
@@ -42,26 +42,27 @@ void setup() {
     //Exibe uma linha em branco
     Serial.println("");
 
-    mqttClient.setServer("54.174.235.157", 1883); // IP do servidor MQTT que esta na AWS
+    mqttClient.setServer("54.161.191.80", 1883); // IP do servidor MQTT que esta na AWS
 
       pinMode(2, INPUT_PULLUP); // determina o modo de funciomanto do sensor
 
 }
 
 void loop() {
-  sensor_estado=digitalRead(sensor); //vai ler a variavel e quarda o resultado dentro da variavel estado_sensor
+  estado_sensor=digitalRead(sensor); //vai ler a variavel e quarda o resultado dentro da variavel estado_sensor
   mqttClient. connect("usuario");//definir nome do usuario 
   
   if (estado_sensor==1){ 
-      Serial.println("o sensor esta aberto")
-      delay(500)
-      Serial.println(estado_sensor) // no serial monitor vai mostrar o estado do sensor
-  mensagem=mqttClient. publish("usuario", "funcionou");}// determina o nome do topico no qual as mensagens vai ser armazenada e a mensagem que vai ser enviada 
-  else{
-  mensagem=mqttClient. publish("usuario", "n funcionou");}
+      Serial.println("o sensor esta aberto");
+    
+      Serial.println(estado_sensor);// no serial monitor vai mostrar o estado do sensor
+  mensagem=mqttClient. publish("usuario", "n funcionou");}// determina o nome do topico no qual as mensagens vai ser armazenada e a mensagem que vai ser enviada 
+  if(estado_sensor==0){
+  Serial.println(" o sensor esta fechado");
+  Serial.println(estado_sensor);
+  mensagem=mqttClient. publish("usuario", "funcionou");}
   
 
- delay(500); 
  mqttClient.loop(); // fazer a verificação a conexão entre o servidor MQTT e o usuario evitando o contato com o servidor
   
 }
